@@ -1,10 +1,12 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * main - Entry point
+ * add - Entry point
  * Description: ''
- * Return: Always 0
+ * @n: Integer
+ * @m: Integer
+ * Return: Addition of n and m
  */
-int main(void)
+int add(int n, int m)
 {
-	return (0);
+	return (n + m);
 }

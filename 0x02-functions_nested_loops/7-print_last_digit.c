@@ -1,10 +1,19 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * main - Entry point
+ * print_last_digit - Entry point
  * Description: ''
- * Return: Always 0
+ * @n: Integer
+ * Return: last digit of n
  */
-int main(void)
+int print_last_digit(int n)
 {
-	return (0);
+	int last_digit;
+
+	last_digit = n % 10;
+	if (last_digit < 0)
+	{
+		last_digit = last_digit * -1;
+	}
+	_putchar(last_digit + '0');
+	return (last_digit);
 }

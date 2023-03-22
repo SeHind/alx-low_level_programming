@@ -1,10 +1,18 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * main - Entry point
+ * _abs - Entry point
  * Description: ''
+ * @c: Integer
  * Return: Always 0
  */
-int main(void)
+int _abs(int c)
 {
-	return (0);
+	if (c < 0)
+	{
+		int abs_value;
+
+		abs_value = c * -1;
+		return (abs_value);
+	}
+	return (c);
 }

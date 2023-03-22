@@ -1,10 +1,15 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * main - Entry point
- * Description: ''
- * Return: Always 0
+ * _islower - Entry point
+ * Description: 'detects lowercases'
+ * Return: 1 if c is lowercase 1 otherwise
+ * @c: character
  */
-int main(void)
+int _islower(int c)
 {
+	if (c >= 97 && c <= 122)
+	{
+		return (1);
+	}
 	return (0);
 }

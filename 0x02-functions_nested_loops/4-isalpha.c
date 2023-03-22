@@ -1,10 +1,15 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * main - Entry point
+ * _isalpha - Entry point
  * Description: ''
- * Return: Always 0
+ * @c: character
+ * Return: 1 if c is a letter 0 otherwise
  */
-int main(void)
+int _isalpha(int c)
 {
+	if ((c >= 65 && c <= 98) || (c >= 97 && c <= 122))
+	{
+		return (1);
+	}
 	return (0);
 }
