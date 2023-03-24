@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * isupper _ Checks if a charachter is uppercase or not 
+ * _isupper - Checks if a charachter is uppercase or not
  * @n : INTEGER
  * Return: 1 if n is uppercase, 0 otherwise
  */
