@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * swap_int: Entry point
+ * swap_int - Entry point
  * @a: Integer
  * @b: Integer
  */
